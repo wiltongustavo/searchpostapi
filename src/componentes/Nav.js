@@ -58,7 +58,7 @@ export  default function Nav(props){
                                         <div className=" usuariologin">  
                                         
                                           
-                                        <Link  to="/login" className="linkdesconect textos">
+                                        <Link  to="/" className="linkdesconect textos">
                                                 Desconectar
                                         </Link>
                                         

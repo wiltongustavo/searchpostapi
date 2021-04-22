@@ -9,7 +9,7 @@ function Router(){
 
         <BrowserRouter>
             <Switch>
-                <Route path="/login" exact component={Login} />
+                <Route path="/" exact component={Login} />
                 <Route path="/homepage" component={HomePage} />
             </Switch>
         </BrowserRouter>

@@ -1,0 +1,544 @@
+/*
+.App {
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-nav {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
+
+
+
+/* inicioo do logo canto esquerdo superior */
+.logoprojeto{
+  
+  font-size: 40px;
+  color: orange;
+  font-family: roboto;
+  margin-top: -8px;
+  
+}
+.IDEIA{
+  color: black;
+  font-family: roboto;
+ 
+}
+
+/*fim do logo canto esquerdo superior */
+
+
+/* inicio controlador da barra da home page*/
+
+.navprincipal{
+
+  padding-top: 50px;
+
+}
+
+/* fim controlador da barra da home page*/
+
+
+
+
+
+/* inicio  dos botoes da homepage*/
+
+.linkdesconect{
+
+  
+  color: orange;
+  text-decoration: none;
+  font-size: 15px;
+  transition: 0.3s;
+
+}
+.linkdesconect:visited,.linkdesconect:active {
+
+  color: orange;
+  text-decoration: none;
+  font-size: 15px;
+  
+
+}
+.linkdesconect:hover{
+
+  text-decoration: none;
+  color:rgb(146, 101, 17);
+  border:none;
+  font-size: 15px;
+ 
+}
+
+
+/* fim dos botoes da homepage */
+
+
+/*inicio das info do usuario */
+.usuarios{
+  
+  font-size: 25;
+  font-family:Roboto;
+  color: black;
+  text-decoration: none;
+  
+  
+  
+
+
+}
+
+.usuarios:active,.usuarios:visited{
+
+  
+  font-size: 25;
+  font-family:Roboto;
+  color: black;
+  text-decoration: none;
+  font-style: bold;
+
+}
+
+.usuarios:hover{
+  
+ 
+  font-size: 25;
+  font-family:Roboto;
+  color: rgb(97, 97, 97);
+  text-decoration: none;
+  font-style: bold;
+}
+
+
+.btnhome{
+  display: block;
+  font-size: 25;
+  font-family:Roboto;
+  color: black;
+  text-decoration: none;
+  font-style: bold;
+
+
+}
+
+.btnhome:active,.btnhome:visited{
+
+  display: block;
+  font-size: 25;
+  font-family:Roboto;
+  color: black;
+  text-decoration: none;
+  font-style: bold;
+
+}
+
+.btnhome:hover{
+  
+  display: block;
+  font-size: 25;
+  font-family:Roboto;
+  color: rgb(97, 97, 97);
+  text-decoration: none;
+  font-style: bold;
+}
+
+/* fim das informacoes do usuario*/
+
+/* inicio da nav */
+#navprincipal{
+
+  background-color: rgb(240, 240, 240);
+}
+.estilo{
+  background-color: orange;
+  width: 100%;
+  height: 150px;
+}
+
+/*fim da nave*/
+
+/* iniciooooo do header*/
+
+.navbarcor{
+  display: inline;
+  background:orange;
+ 
+
+  
+
+}
+
+
+.headerprincipal{
+
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.header1{
+  width: 100%;
+  height: 100%;
+  max-width: 1120px;
+  max-height: 900px;
+  min-height: 500px;
+  height: 90vh;
+  margin: 0 auto;
+  top: -90px;
+
+  position: relative;
+
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+
+}
+
+
+/* inicio do article principal */
+
+#articleprincipal{
+
+  background-color: white;
+         
+  
+
+  
+}
+
+hr{
+ background: aliceblue;
+}
+
+.conteudo-post{
+  color: tomato;
+}
+
+.info-post{
+  color: rgb(97, 97, 97);
+}
+
+.titulo-post{
+  color: aliceblue;
+}
+
+.card-post{
+  margin: 20px;
+}
+  
+  .li-post{
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 50px;
+      box-shadow: #363636;
+      background-color: rgb(27, 27, 27);
+      border-radius: 50px;
+      
+  }
+
+
+.homepageseletor{
+
+  width: 80%;
+  height: 80%;
+  
+}
+.componente{
+
+  
+  margin:30px;
+}
+
+
+.titulo{
+  margin-top:8%;
+  margin-bottom: 8%;
+
+}
+
+/* inicio de componentes de selecao da tela*/
+
+.infocomponente{
+  
+  font-size: 25;
+  font-family:Roboto;
+  color: black;
+  text-decoration: none;
+  font-style: bold;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  transition: 0.3s;
+
+
+}
+
+.infocomponente:active,.infocomponente:visited{
+
+  
+  font-size: 25;
+  font-family:Roboto;
+  color: black;
+  text-decoration: none;
+  font-style: bold;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+
+
+}
+
+.infocomponente:hover{
+  
+  display: block;
+  font-size: 25;
+  font-family:Roboto;
+  color: rgb(97, 97, 97);
+  text-decoration: none;
+  font-style: bold;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+
+
+}
+
+/* fim de componentes de selecao da tela*/
+
+
+
+.names{
+  bottom: 40px;
+  right: 10px;
+}
+
+.imgInfo{
+
+  width: 117px;
+  height: 74px;
+  max-width: 117px;
+  max-height: 74;
+  min-height: 30px;
+  min-width: 60px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  @media screen and ( max-width:480px){
+
+    .textos{
+     font-size: 12px;
+    
+    }
+    .imagemusuarios{
+
+      width: 50px;
+      height: 50px;
+      max-width: 50px;
+      max-height: 50px;
+      min-height: 25px;
+      min-width: 25px;
+      
+    }
+  }
+  @media screen and ( min-width:480px){
+
+    .textos{
+     font-size: 18px;
+    
+    }
+    .imagemusuarios{
+     
+      width: 50px;
+      height: 50px;
+      max-width: 50px;
+      max-height: 50px;
+      min-height: 25px;
+      min-width: 25px;
+      display: flex;
+      
+     
+  }
+  }
+
+.cardelemento{
+
+  width: 100%;
+  max-width: 1120px;
+  max-height: 610px;
+  height: 100vh;
+  min-height: 10px;
+  margin: 0 auto;
+  border-radius: 30px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+.postsearch{
+  
+}
+
+.item1{
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(224, 224, 224));
+  width: 100%;
+  height: 100%;
+  max-width: 1120px;
+  max-height: 500px;
+  min-width: 80px;
+  min-height: 80px;
+  margin: 0 auto;
+  margin-left: 15px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+.blococentral{
+  
+  width: auto;
+  height: 600px;
+  background: white;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.textitem{
+ 
+  position: absolute;
+  top: 90px;  
+
+  
+ 
+  
+}
+
+
+.imagemusuarios{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  
+
+}
+.usuariologin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 40px;
+  
+}
+
+
+/*inicioo footer*/
+.footertamanho{
+
+  width: 100%;
+  height: 80px;
+  background-color: rgb(27, 27, 27);
+}
+
+
+
+.textfooter{
+
+  
+  color: rgb(102, 102, 102);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: roboto;
+  
+
+}
+
+
+.elementofooter{
+ width: auto;
+ margin: 0 auto;
+ top: 30px;
+ position: relative;
+}
+.marca{
+  color: orange;
+  font-family: sans-serif;
+  margin-right: 3px;
+}
+
+/*final footer*/
+
+
+
+
+/*inicio da otimização da pagina */
+
+
+@media screen and (max-width:720px){
+
+
+
+}
